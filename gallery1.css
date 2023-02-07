@@ -1,0 +1,19 @@
+body{
+    background-color: skyblue;
+}
+.area{
+    height: 100%;
+    margin-left: 15%;
+    overflow: auto;
+    
+}
+.area img{
+    width: 25%;
+    transition: 1s;
+    padding: 50px;
+    border-radius: 70px;
+}
+.area img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}

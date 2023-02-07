@@ -1,0 +1,34 @@
+<html>
+<head>
+	<link rel="stylesheet" href="transport.css">
+</head>
+<body>
+    
+	<form class="login" name="login" action="bus transport.html" method="post" onsubmit="return validateForm()">
+            <h2 style="color:#6d32a8;">User Login..</h2>
+			<label for="uname">Username:</label>
+			<input type="text" placeholder="Enter Username" name="uname"><br><br>
+			<label for="pword">Password:</label>
+			<input type="password" placeholder="Enter Password" name="pword"><br><br>
+			<input type="submit" value="Login"><br><br><br>
+        <a href="#" style="margin-left: 20px; color:white; text-decoration: none;">New User?</a>
+        <a href="#" style="color:white; padding-left: 70px; text-decoration: none;">Forgot Password?</a>
+	</form>
+    
+	<script type="text/javascript">
+    function validateForm() {
+        var un = document.forms["login"]["uname"];
+        var password = document.forms["login"]["pword"];
+        if (un.value == "MANOJ" && password.value == "8754")
+        {
+			alert("Login was Successful");
+            return true;
+        }
+        else {
+            alert ("Login was unsuccessful, please check your username and password");
+            return false;
+        }
+    }
+        </script>
+</body>
+</head>

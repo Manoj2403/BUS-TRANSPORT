@@ -1,0 +1,170 @@
+body{
+    background-image:url(4.jpg);
+	background-size:100%;
+	background-attachment:scroll;	
+}
+.logo{
+	margin-left:40%;
+}
+.cname{
+	margin-left:45%;
+	margin-top:-98px;
+	font-size:20px;
+}
+ul{
+  position:sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #34ebc6;
+}
+li{
+	float:left;
+}
+li a{
+	display:block;
+	text-decoration:none;
+	color:black;
+	padding:30px;
+	font-size:20px;
+}
+.about{
+    float:right;
+	margin:0px;
+	padding:0;
+}
+.head1{
+    color:brown;
+}
+.para1{
+    font-size: 50px;
+    margin-left: 20%;
+    margin-top: 17%;
+    
+}
+.para2{
+    font-size: 50px;
+    color: white;
+    margin-left: 45%;
+    margin-top: -20px;
+}
+.login{
+	text-align:center;
+	margin-top:18%;
+	margin-right:5%;
+	font-size:20px;
+}
+.navbar{
+    float:left;
+    width:100%;
+    height: 10.5%;
+    background-color: #34ebc6;
+    
+}
+.navbar a{
+    display: inline-block;
+    padding: 25px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.navbar a:hover{
+    background-color: white;
+    color: red;
+}
+.navbar .help{
+    display: inline-block;
+    float: right;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dpc{
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px;
+    padding: 10px 10px;
+    z-index: 1;
+    background-color: white;
+}
+.dropdown:hover .dpc{
+    display: block;
+}
+button{
+    margin-left: 42%;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 1s;
+}
+button:hover{
+    transform:scale(1.2);
+    cursor:pointer;
+}
+.track{
+    color: yellow;
+    font-family: cursive;
+    font-size: 35px;
+    margin-left:40%;
+}
+.available{
+    background-color: white;
+    width:30%;
+    margin-left: 14%;
+    font-family: cursive;
+    transition:1s;
+    height:300px;
+}
+.available:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 50px;
+}
+.ticket{
+    background-color: pink;
+    font-family: cursive;
+    margin-left: 47%;
+    margin-top: -319px;
+    width: 40%;
+    transition: 1s;
+    height:300px;
+    
+   
+}
+.ticket:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 50px;
+    
+}
+.app{
+    background-color: white;
+    opacity: 0.8;
+    width: 40%;
+    height:500px;
+    margin-left: 209px;
+    margin-top: 200px;
+}
+.mobile{
+    margin-left: 60%;
+    margin-top: -543px;
+}
+.mobile img{
+     height: 600px;
+}
+.footer{
+    background-color: aqua;
+    height: 300px;
+    color:hotpink;
+    font-family: cursive;
+    padding-left: 15%
+}
+.contact{
+    margin-left: 50%;
+    margin-top: -310px;
+    
+}
